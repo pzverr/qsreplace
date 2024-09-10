@@ -1,7 +1,7 @@
 .PHONY: all clean test
 
 CXX=g++
-CXXFLAGS=-O3 -Werror -std=c++17
+CXXFLAGS=-O3 -static -Werror -std=c++17
 
 SRC_PATH=$(PWD)/src
 INCLUDE_PATH=$(PWD)/includes

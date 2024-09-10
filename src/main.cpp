@@ -20,7 +20,11 @@ int main(int argc, char* argv[]) {
     url u(line);
 
     for (auto& [key, value] : u.query) {
-      replace(value.begin(), value.end(), argv[1]);
+      if (argc == 2)
+        replace(value.begin(), value.end(), argv[1]);
+
+      if ((argc == 3) and (argv[1] == key))
+        replace(value.begin(), value.end(), argv[2]);
     }
 
     std::cout << u << "\n";
