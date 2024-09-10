@@ -1,0 +1,17 @@
+https://example.com/limp?one=1&two=2
+https://example.com/bizkit?two=2&one=1
+https://example.com/korn?two=2&one=1
+https://example.net/foo/path?two=2&one=1
+http://example.net/?two=2&one=1
+example.com/
+example.com/foo/somepath?one=1&two=2&three=3
+http://example.com/
+http://example.com
+https://example.com:443/iron?one=1&two=2&three=3#fragment
+https://example.com/maiden?one=1&two=2&three=3#fragment
+https://example.com/somepath#fragment
+https://example.com#fragment
+https://example.com/#fragment
+https://example.com/autos?cars[]=kia&cars[]=audi
+https://example.com/?context=search&group=div_book&text=
+

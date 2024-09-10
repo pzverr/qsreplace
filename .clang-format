@@ -1,0 +1,14 @@
+Language: Cpp
+BasedOnStyle: LLVM
+IndentWidth: 2
+TabWidth: 2
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+BinPackArguments: false
+BinPackParameters: false
+CommentPragmas: NOLINT:.*
+DerivePointerAlignment: false
+PointerAlignment: Left
+IncludeBlocks: Preserve
+SortIncludes: false
